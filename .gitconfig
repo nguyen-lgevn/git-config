@@ -1,0 +1,14 @@
+[user]
+	name = 
+	mail = 
+[alias]
+	work = log --pretty=format:\"%C(yellow)%h %ar %C(auto)%d %Creset %s , %Cblue%cn\" --all --graph
+    list = log --color --pretty=format:\"%C(yellow)%h%Creset %ar %C(auto)%d %Creset %s , %Cblue%cn\" --abbrev-commit
+    last = log -1 HEAD
+    fg = log --all --graph
+    st = show --stat --oneline
+
+[commit]
+	template = ~/.gittemplate
+[core]
+	editor = vim
